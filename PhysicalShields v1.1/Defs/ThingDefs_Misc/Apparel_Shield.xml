@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+		<!--==================================== Neolithic ====================================-->
+
+	<ThingDef ParentName="ShieldNeolithic">
+		<defName>Shield_Neolithic_Small</defName>
+		<thingClass>Mod_PhysicalShield.PhysicalShield</thingClass>
+		<label>Small Shield</label>
+		<description>A small flimsy shield made from hardened leathers or wood. Used mainly for sparring and training.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Apparel/Accessory/Shield/Neolithic/SmallShield</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>25</costStuffCount>
+		<statBases>
+			<Mass>3</Mass>
+			<WorkToMake>800</WorkToMake>
+			<MaxHitPoints>30</MaxHitPoints>
+			<BlockMax>0.3</BlockMax>
+			<StaminaRechargeRate>0.10</StaminaRechargeRate>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="ShieldNeolithic">
+		<defName>Shield_Neolithic_Medium</defName>
+		<thingClass>Mod_PhysicalShield.PhysicalShield</thingClass>
+		<label>Medium Shield</label>
+		<description>A medium sized shield made from hardened leathers or wood.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Apparel/Accessory/Shield/Neolithic/MediumShield</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>35</costStuffCount>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>2</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<Mass>4</Mass>
+			<WorkToMake>1200</WorkToMake>
+			<MaxHitPoints>50</MaxHitPoints>
+			<BlockMax>0.5</BlockMax>
+			<StaminaRechargeRate>0.07</StaminaRechargeRate>
+		</statBases>
+	</ThingDef>
+	
+		<!--==================================== Medieval ====================================-->
+		
+	<ThingDef ParentName="ShieldMedieval">
+		<defName>Shield_Medieval_Small</defName>
+		<thingClass>Mod_PhysicalShield.PhysicalShield</thingClass>
+		<label>Buckler</label>
+		<description>A buckler. Used more for deflecting attacks than blocking directly.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Apparel/Accessory/Shield/Medieval/Buckler</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>30</costStuffCount>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>2</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<Mass>2</Mass>
+			<WorkToMake>1000</WorkToMake>
+			<MaxHitPoints>40</MaxHitPoints>
+			<BlockMax>0.25</BlockMax>
+			<StaminaRechargeRate>0.13</StaminaRechargeRate>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="ShieldMedieval">
+		<defName>Shield_Medieval_Medium</defName>
+		<thingClass>Mod_PhysicalShield.PhysicalShield</thingClass>
+		<label>Kite Shield</label>
+		<description>A kite shield. Sturdy and well balanced.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Apparel/Accessory/Shield/Medieval/KiteShield</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>40</costStuffCount>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<Mass>5</Mass>
+			<WorkToMake>1200</WorkToMake>
+			<MaxHitPoints>70</MaxHitPoints>
+			<BlockMax>0.6</BlockMax>
+			<StaminaRechargeRate>0.07</StaminaRechargeRate>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="ShieldMedieval">
+		<defName>Shield_Medieval_Large</defName>
+		<thingClass>Mod_PhysicalShield.PhysicalShield</thingClass>
+		<label>Tower Shield</label>
+		<description>A tower shield able to block most attacks. Slows the wearer down slightly.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Apparel/Accessory/Shield/Medieval/TowerShield</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>50</costStuffCount>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<Mass>7</Mass>
+			<WorkToMake>1400</WorkToMake>
+			<MaxHitPoints>110</MaxHitPoints>
+			<BlockMax>1.0</BlockMax>
+			<StaminaRechargeRate>0.05</StaminaRechargeRate>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
+	
+		<!--==================================== Industrial ====================================-->
+
+	<ThingDef ParentName="ShieldIndustrial">
+		<defName>Shield_Industrial_Large</defName>
+		<thingClass>Mod_PhysicalShield.PhysicalShield</thingClass>
+		<label>Ballistic Shield</label>
+		<description>A ballistic shield able to block most attacks. Slows the wearer down slightly.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Apparel/Accessory/Shield/Industrial/BallisticShield</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>60</costStuffCount>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<Mass>8</Mass>
+			<WorkToMake>2000</WorkToMake>
+			<MaxHitPoints>130</MaxHitPoints>
+			<BlockMax>1.3</BlockMax>
+			<StaminaRechargeRate>0.05</StaminaRechargeRate>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
+</Defs>
+
