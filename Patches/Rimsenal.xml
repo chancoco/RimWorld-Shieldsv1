@@ -1,0 +1,10 @@
+<Patch>
+		<Operation Class="PatchOperationAdd">
+			<xpath>*/ThingDef[@Name = "BaseMeleeWeapon"]</xpath>
+				<value>
+					<weaponTags>
+						<li>UsableWithShield</li>
+					</weaponTags>
+				</value>
+		</Operation>		
+</Patch>
