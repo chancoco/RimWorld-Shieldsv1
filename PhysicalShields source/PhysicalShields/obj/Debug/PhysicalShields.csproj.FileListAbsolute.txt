@@ -1,0 +1,13 @@
+C:\Users\chanc\Desktop\PhysicalShields\PhysicalShields\RimWorld\Mods\PhysicalShields\Assemblies\PhysicalShields.dll
+D:\Steam\steamapps\common\RimWorld\Mods\PhysicalShields\Assemblies\PhysicalShields.dll
+C:\Users\chanc\Desktop\PhysicalShields\PhysicalShields\obj\Debug\PhysicalShields.csproj.CoreCompileInputs.cache
+D:\Steam\steamapps\common\RimWorld\Mods\1553916974\Assemblies\PhysicalShields.dll
+C:\Users\chanc\Desktop\PhysicalShields\PhysicalShields\obj\Debug\PhysicalShields.dll
+C:\Users\chanc\Desktop\PhysicalShields\PhysicalShields\obj\Debug\PhysicalShields.csprojAssemblyReference.cache
+C:\Users\chanc\Downloads\PS\PhysicalShields source\PhysicalShields\obj\Debug\PhysicalShields.csprojAssemblyReference.cache
+C:\Users\chanc\Downloads\PS\PhysicalShields source\PhysicalShields\obj\Debug\PhysicalShields.csproj.CoreCompileInputs.cache
+C:\Users\chanc\Downloads\PS\PhysicalShields source\PhysicalShields\obj\Debug\PhysicalShields.dll
+C:\Users\chanc\Downloads\PS\Assemblies\PhysicalShields.dll
+C:\Users\chanc\Desktop\New folder\PhysicalShields v1.1\PhysicalShields source\PhysicalShields\obj\Debug\PhysicalShields.csprojAssemblyReference.cache
+C:\Users\chanc\Desktop\New folder\PhysicalShields v1.1\PhysicalShields source\PhysicalShields\obj\Debug\PhysicalShields.csproj.CoreCompileInputs.cache
+C:\Users\chanc\Desktop\New folder\PhysicalShields v1.1\PhysicalShields source\PhysicalShields\obj\Debug\PhysicalShields.dll

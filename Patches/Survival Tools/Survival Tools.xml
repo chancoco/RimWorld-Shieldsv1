@@ -1,0 +1,16 @@
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[XND] Survival Tools</li>
+		</mods>
+			<match Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>*/ThingDef[@Name="BaseSurvivalTool"]</xpath>
+				<value>
+					<weaponTags>
+						<li>UsableWithShield</li>
+					</weaponTags>
+				</value>
+			</match>
+	</Operation>
+</Patch>

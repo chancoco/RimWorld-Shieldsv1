@@ -1,0 +1,17 @@
+<!--
+		Patches in the "NotUsableWithShield" in the weaponTags node for melee weapon exceptions.
+		This will prevent the tagged weapon from being used with shields. The shields can still be worn, but will not be active with the tagged weapon.
+ -->
+
+ <!-- Example. Copy, paste, and replace MeleeWeapon_LongSword with the weapon that you want to patch. Keep the quotations.
+
+ <Patch>
+		<Operation Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "MeleeWeapon_LongSword"]/weaponTags</xpath>
+			<value>
+				<li>NotUsableWithShield</li>
+			</value>
+		</Operation>		
+</Patch>
+
+-->
